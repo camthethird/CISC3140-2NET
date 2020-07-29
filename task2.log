@@ -1,0 +1,23 @@
+Last login: Tue Jul 28 20:49:01 on ttys001
+/Users/c.m/.zshrc:2: command not found: $
+c.m@CM3MP-2 CISC3140-SS2 % touch myfirstcommit.txt
+c.m@CM3MP-2 CISC3140-SS2 % echo "this is my first git commit" > myfirstcommit.txt
+c.m@CM3MP-2 CISC3140-SS2 % git add myfirstcommit.txt
+c.m@CM3MP-2 CISC3140-SS2 % git push
+Everything up-to-date
+c.m@CM3MP-2 CISC3140-SS2 % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

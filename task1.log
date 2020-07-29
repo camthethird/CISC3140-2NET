@@ -1,0 +1,22 @@
+Last login: Tue Jul 28 20:14:45 on ttys000
+/Users/c.m/.zshrc:2: command not found: $
+c.m@CM3MP-2 ~ % git clone https://github.com/camthethird/CISC3140-SS2.git
+fatal: destination path 'CISC3140-SS2' already exists and is not an empty directory.
+c.m@CM3MP-2 ~ % git init https://github.com/camthethird/CISC3140-SS2.git
+Initialized empty Git repository in /Users/c.m/https:/github.com/camthethird/CISC3140-SS2.git/.git/
+c.m@CM3MP-2 ~ % touc testpage.html
+zsh: command not found: touc
+c.m@CM3MP-2 ~ % touch testpage.html
+c.m@CM3MP-2 ~ % echo "<!DOCTYPE html>" > testpage.html
+zsh: event not found: DOCTYPE
+c.m@CM3MP-2 ~ % ehco "<!DOCTYPE html>" > testpage.html
+zsh: event not found: DOCTYPE
+c.m@CM3MP-2 ~ % echo "<html>" >> testpage.html
+c.m@CM3MP-2 ~ % echo "<head>" >> testpage.html
+c.m@CM3MP-2 ~ % git add testpage.html 
+c.m@CM3MP-2 ~ % git commit -m "First Git commit"
+[master b173c8e] First Git commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 testpage.html
+c.m@CM3MP-2 ~ % 
+
