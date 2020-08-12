@@ -1,0 +1,20 @@
+My Project: 
+
+Objective:
+I am creating an online resume that I can update as I progress through my 
+career. 
+
+Web Page Includes:
+My name
+Github Username
+Contact information
+My Education 
+Display's the current date
+Current Career Goals
+Prior Experience/Related Courses
+
+Tasks:
+> Creating a HTML document
+> Make a CSS document
+> Make JavaScript File with date. 
+
