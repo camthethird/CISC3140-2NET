@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+        <script type="text/javascript" src="dateattribute.js"></script>
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+        <script src="semantic/dist/semantic.min.js"></script>
+        
+        <title> Spotify Artist Playlist Creator</title>
+    </head>
+
+    <body>
+        <h1>Spotify Artist Playlist Creator</h1>
+
+        <!--
+        <div id="Artist Search" class="search card">
+                <input></input>
+
+                <button id="playlistButton" class="btn btn-lg btn-success">Make New Playlist</button>
+        </div>
+    -->
+    <div>
+            <div id="login">
+             <h1>Log into Spotify</h1>
+             <a href="/login">Log in</a>
+            </div>
+            <div id="loggedin">
+            </div>
+    </div>
+
+    <script id="loggedin-template" type="text/x-handlebars-template">
+        <h1>Logged in as </h1>
+        <img id="avatar" width="200" src="" />
+        <dl>
+         <dt>Display name</dt><dd></dd>
+         <dt>Username</dt><dd></dd>
+         <dt>Email</dt><dd></dd>
+         <dt>Spotify URI</dt><dd><a href=""></a></dd>
+         <dt>Link</dt><dd><a href=""></a></dd>
+         <dt>Profile Image</dt><dd></dd>
+        </dl>
+        <p><a href="/">Log in again</a></p>
+     </script>
+
+    <div>
+    <div class="ui fluid multiple search selection dropdown">
+        <input type="hidden" name="Artist">
+        <i class="dropdown icon"></i>
+        <div class="default text">Selects Your Artists</div>
+        <div class="menu">
+
+        </div>
+
+           <!--
+            <div class="left" >
+              <input type="hidden" id="mySearch" onkeyup="myFunction()" placeholder="Artist" title="Type in a category">
+              <ul id="myMenu">
+    
+              </ul>
+            </div> 
+        -->
+    <div class="row">
+            <div class="right">
+            <input type="text" id="mysearch" onkeyup="myFunction()" placeholder="# of Songs" title="Select amount of songs">
+            <ul id="myMenu">
+
+            </ul>    
+            </div>
+            <button class="button button1">Generate Your New Playlist</button>
+    </div>        
+    </div>
+    </body>
+
+</html>

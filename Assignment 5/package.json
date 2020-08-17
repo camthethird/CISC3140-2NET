@@ -1,0 +1,15 @@
+{
+  "name": "assignment-5",
+  "version": "1.0.0",
+  "description": "CISC. 3140-2NET Assignment 5 \"Spotify Playlist Maker\"",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clifton A. McDonald III",
+  "license": "ISC"
+}
